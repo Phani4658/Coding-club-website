@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UG Geeks</title>
+    <link rel = 'stylesheet' href = './styles.css' >
+    <script src="https://kit.fontawesome.com/e27bd23adb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <main class="bg-container">
+        <section id = 'navbar'>
+            <nav>
+                <h2 class="navbar-logo" id = 'pageLogo'>UG</h2>
+                <!-- NavBar mobile icon-->
+                    <i class="fa-solid fa-bars bars-size" id = 'bars'></i>
+                </label>
+                <div class="links-container" id = 'navLinks'>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                    <div class="social-icons-container">
+                        <i class="fa-brands fa-instagram social-media-logo insta"></i>
+                        <i class="fa-brands fa-linkedin social-media-logo linkedin"></i>
+                    </div>
+
+                </div>
+            </nav>
+            <header class="banner-section"> 
+                    <div class="text-container">
+                        <h2 class="text-container-heading"><span>UG</span> Club</h2>
+                        <p class="text-container-para">We Conduct</p>
+                        <span class="auto-type"></span>
+                    </div>
+                    <div class="banner-social-icons-container">
+                        <i class="fa-brands fa-instagram social-media-logo insta"></i>
+                        <i class="fa-brands fa-linkedin social-media-logo linkedin"></i>
+                    </div>
+            </header>
+        </section>
+        <section id = 'about-us-section'></section>
+    </main>
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!--Typing Text Code-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-type",{
+            strings:['Webinars','Coding Competetions','Hack a thons','and many more'],
+            typeSpeed:150,
+            backSpeed:150,
+            loop: true
+        });
+    </script>
+</body>
+</html>
