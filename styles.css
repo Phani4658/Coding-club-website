@@ -160,7 +160,7 @@ nav{
 .banner-section{
     background-image: linear-gradient(178.6deg, rgb(20, 36, 50,0.5) 11.8%, rgb(124, 143, 161,0.5) 83.8%),
     url(./images/pankaj-patel-_SgRNwAVNKw-unsplash.jpg);
-    height: 91vh;
+    height: 92.2vh;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -222,3 +222,127 @@ nav{
             Banner Section Styling Ends
     =================================================
 */
+
+/* 
+    =================================================
+            About us Section Styling Starts
+    =================================================
+*/
+
+#about-us-section{
+    padding: 1em;
+}
+.about-us-text-container p{
+    font-size:18px;
+    line-height: 22px;
+    margin-top: 10px;
+}
+.about-us-text-container p span{
+    color:#5B51D8;
+}
+button{
+    width: 10em;
+    height: 2.5em;
+    margin:1em 0em;
+    padding:0.5em;
+    border:none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.blue-button{
+    background-color: #405DE6;
+    color:white;
+}
+@media  screen and (min-width:641px){
+    .about-us-text-container{
+        max-width:60%;
+        min-width: 40%;
+    }
+    .desktop-image{
+        height: 350px;
+        border-radius: 1em;
+    }
+    #about-us-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width:640px){
+    .hide-mobile{
+        display: none;
+    }
+    
+}
+/* 
+    =================================================
+            About Us Section Styling Ends
+    =================================================
+*/
+
+#outcomes-section{
+    padding: 1em;
+    color:#fff;
+    background-image:url(./images/safar-safarov-koOdUvfGr4c-unsplash.jpg);
+    background-size: cover;
+    margin:1em 0em;
+    text-align: center;
+}
+#outcomes-section h2{
+    font-size: 28px;
+    padding-bottom: 0.5em;
+}
+.outcomes-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.outcomes-card{
+    background-color: #fff;
+    padding:1em;
+    border-radius: 10px;
+    width: 80%;
+    margin:0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.outcome-card-image{
+    height: 10em;
+    position:relative;
+    left:10px;
+}
+.outcome-card-text-container{
+    color:#010332;
+    text-align: center;
+}
+.outcome-card-text-container h3  span{
+    color:#405DE6;
+}
+@media screen and (min-width:641px){
+    .outcomes-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .outcomes-card{
+        width: 45%;
+        overflow: hidden;
+    }
+}
+@media screen and (min-width:1200px){
+    .outcomes-container{
+        width: 70%;
+        margin: auto;
+    }
+    .outcome-card-image{
+        height: 12em;
+    }
+}
