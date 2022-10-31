@@ -280,12 +280,18 @@ button{
     =================================================
 */
 
+/* 
+    =================================================
+            Outcomes Section Styling Starts
+    =================================================
+*/
+
 #outcomes-section{
     padding: 1em;
     color:#fff;
     background-image:url(./images/safar-safarov-koOdUvfGr4c-unsplash.jpg);
     background-size: cover;
-    margin:1em 0em;
+    margin-top:1em;
     text-align: center;
     width: 100%;
 }
@@ -339,4 +345,111 @@ button{
         width: 45%;
     }
 
+}
+
+/* 
+    =================================================
+                Outcomes Section Styling Ends
+    =================================================
+*/
+#timeline-section{
+    background-color: #1E293B;
+    padding: 1em;
+    margin-bottom:1em;
+}
+#timeline-section h2{
+    color:#ffffff;
+    text-align: center;
+    margin-bottom: 0.4em;
+}
+.order-part > h4{
+    color: #fff;
+    background-color: #2563EB;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding:5px 10px;
+    
+}
+.timeline-card-top-part{
+    display: flex;
+    align-items: center;
+    margin-top: 0.5em;
+
+}
+.timeline-section-heading{
+    color:#fff;
+    margin-left: 0.5em;
+}
+.skill-card{
+    background: rgba( 60, 48, 48, 0.7 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+    margin:0.8em 0em;
+    align-self: flex-end;
+    color:white;
+
+}
+.skills-card-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+.skill-icon{
+    color:#F56040;
+    font-size: 2em;
+    margin-bottom: 0.3em;
+}
+.css{
+    color: #2563EB;
+}
+.js{
+    color:#ffaa1d;
+}
+.react{
+    color: #2563EB;
+}
+.nodejs{
+    color:#fff;
+}
+.skill-card p{
+    font-size:14px;
+    margin-top:4px;
+}
+.order-part div{
+    width:2px;
+    height: auto;
+    background-color: #2563EB;
+}
+@media screen and (min-width:641px){
+    .skills-card-container{
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start;
+        position: relative;
+        left:-8%;
+    }
+    .skill-card{
+        margin: 0.5em;
+        height:12em;
+        display: flex;
+        width:15em;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .timeline-card-top-part{
+        margin: auto;
+    }
+    .timeline-card{
+        width: 80%;
+        margin: auto;
+    }
 }
