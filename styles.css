@@ -230,11 +230,10 @@ nav{
 */
 
 #about-us-section{
-    padding: 1em;
+    padding:2em;
 }
 .about-us-text-container p{
     font-size:18px;
-    line-height: 22px;
     margin-top: 10px;
 }
 .about-us-text-container p span{
@@ -255,12 +254,13 @@ button{
 }
 @media  screen and (min-width:641px){
     .about-us-text-container{
-        max-width:60%;
-        min-width: 40%;
+        max-width: 50%;
+
     }
     .desktop-image{
         height: 350px;
         border-radius: 1em;
+        max-width: 40%;
     }
     #about-us-section{
         display: flex;
@@ -287,6 +287,7 @@ button{
     background-size: cover;
     margin:1em 0em;
     text-align: center;
+    width: 100%;
 }
 #outcomes-section h2{
     font-size: 28px;
@@ -331,18 +332,11 @@ button{
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-    }
-    .outcomes-card{
-        width: 45%;
-        overflow: hidden;
-    }
-}
-@media screen and (min-width:1200px){
-    .outcomes-container{
         width: 70%;
         margin: auto;
     }
-    .outcome-card-image{
-        height: 12em;
+    .outcomes-card{
+        width: 45%;
     }
+
 }
