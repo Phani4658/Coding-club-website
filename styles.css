@@ -290,6 +290,7 @@ button{
     padding: 1em;
     color:#fff;
     background-image:url(./images/safar-safarov-koOdUvfGr4c-unsplash.jpg);
+    background-position: center;
     background-size: cover;
     margin-top:1em;
     text-align: center;
@@ -318,6 +319,13 @@ button{
     align-items: center;
     position: relative;
     overflow: hidden;
+}
+.outcomes-card:hover{
+    margin: 1em;
+    transform: scale(1.08);
+    transition-property: transform;
+    transition-duration: 1000ms;
+
 }
 .outcome-card-image{
     height: 10em;
@@ -361,7 +369,6 @@ button{
 #timeline-section{
     background-color: #1E293B;
     padding: 1em;
-    margin-bottom:1em;
 }
 #timeline-section h2{
     color:#ffffff;
@@ -465,63 +472,132 @@ button{
                 Timeline Section Styling Ends
     =================================================
 */
-
-#team-section{
+#events-section{
     padding: 1em;
-    background-image: url('./images/profile bg');
+    background-image: linear-gradient( 134.6deg,  rgba(201,37,107,1) 15.4%, rgba(116,16,124,1) 74.7% );
 }
-#team-section h2{
+#events-section h2{
     text-align: center;
-    margin-bottom: 0.3em;
+    color:#fff;
 }
-.team-member-cards h3{
-    margin: 0.5em;
+.event-card{
+    display: flex;
+    width: 80%;
+    height: 20em;
+    margin: auto;
+    border-radius: 8em;
+}
+.event-card-left-part{
+    background-color: #000200;
+    width: 30%;
 }
 
+#teamSection{
+    padding: 1em;
+    background-image: linear-gradient( 105.5deg,  rgba(31,212,248,1) 11%, rgba(218,15,183,1) 74.9% );
+}
+#teamSection h2{
+    color:#fff;
+    text-align: center;
+    margin-bottom: 0.4em;
+}
 .profile-card{
-    padding: 0.5em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    -webkit-border-radius: 19px;
-    border-radius: 19px;
+    background-color: #fff;
     width: 80%;
     margin: auto;
-    background: rgba(236,216,254,0.5);
-    -webkit-backdrop-filter: blur(15px);
-    backdrop-filter: blur(15px);
-    border: 1px solid rgba(236,216,254,0.25);
     margin-bottom: 1em;
-    }
+    background-color: transparent;
+    height: 20em;
+}
+.profile-card-header{
+    background: rgba(255,255,255,0.3);
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(28px);
+    border: 1px solid rgba(255,255,255,0.25);
+    height: 30%;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .profile-image{
-    width: 120px;
-    height: 120px;
+    height:6em;
+    width: 6em;
     border-radius: 50%;
-    margin-bottom: 0.5em;
+    position: absolute;
+    top:2.8em;
+
 }
-.social-icon-size{
-    font-size: 1.1em;
-    margin-right: 0.2em;
+.profile-card-bottom-section{
+    background-color: #fff;
+    height: 70%;
+    border-bottom-left-radius:2em;
+    border-bottom-right-radius: 2em;
+    text-align: center;
+    padding-top: 3em;
+
 }
-.portfolio:hover{
-    color: #2563EB;
+.person-name{
+    font-size: 22px;
+    font-weight: 700;
+}
+.person-role{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+.skills-container{
+    text-align: left;
+    font-size: 22px;
+    padding-left: 1em;
+
+}
+.lan-card{
+    color: white;
+    background-color: #2563EB;
+    width: 30%;
+    font-size: 14px;
+    padding: 0.4em;
+    border-radius: 2em;
+    text-align: center;
+    margin: 0.3em;
+}
+.lan-card:hover{
+    transition: 0.8s;
+    transform: scale(1.1);
     cursor: pointer;
 }
+.lan-cards-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.social-handles{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0.8em;
+}
+.mail:hover{
+    color:#454950;
+}
+.portfolio:hover{
+    transition: 0.8s;
+    transform: scale(1.1);
+
+}
 @media screen and (min-width:641px){
-    .team-member-cards{
+    .profile-card{
+        width:20%;
+        margin: 1em;
+    }
+    .profile-cards-container{
+        display: flex;
+        flex-wrap: wrap;
         width: 80%;
         margin: auto;
     }
-    .cards-container{
-        display: flex;
-        justify-content:flex-start;
-        align-items: center;
-    }
-    .profile-card{
-        width: 20%;
-        margin: 0;
-        margin-left: 1em;
-    }
-
 }
