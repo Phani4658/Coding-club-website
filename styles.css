@@ -187,7 +187,7 @@ nav{
 }
 .auto-type,.typed-cursor{
     color:#FCAF45;
-    font-size:46px;
+    font-size:44px;
 }
 .typed-cursor{
     animation: blink 1000ms infinite;
@@ -352,6 +352,12 @@ button{
                 Outcomes Section Styling Ends
     =================================================
 */
+
+/* 
+    =================================================
+                Timeline Section Styling Starts
+    =================================================
+*/
 #timeline-section{
     background-color: #1E293B;
     padding: 1em;
@@ -452,4 +458,70 @@ button{
         width: 80%;
         margin: auto;
     }
+}
+
+/* 
+    =================================================
+                Timeline Section Styling Ends
+    =================================================
+*/
+
+#team-section{
+    padding: 1em;
+    background-image: url('./images/profile bg');
+}
+#team-section h2{
+    text-align: center;
+    margin-bottom: 0.3em;
+}
+.team-member-cards h3{
+    margin: 0.5em;
+}
+
+.profile-card{
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 19px;
+    border-radius: 19px;
+    width: 80%;
+    margin: auto;
+    background: rgba(236,216,254,0.5);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(236,216,254,0.25);
+    margin-bottom: 1em;
+    }
+.profile-image{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 0.5em;
+}
+.social-icon-size{
+    font-size: 1.1em;
+    margin-right: 0.2em;
+}
+.portfolio:hover{
+    color: #2563EB;
+    cursor: pointer;
+}
+@media screen and (min-width:641px){
+    .team-member-cards{
+        width: 80%;
+        margin: auto;
+    }
+    .cards-container{
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+    }
+    .profile-card{
+        width: 20%;
+        margin: 0;
+        margin-left: 1em;
+    }
+
 }
