@@ -624,7 +624,6 @@ button{
 .footer-icons-container a:hover{
     transition: all 0.8s ease-in-out;
     color:white;
-    font-size: 25px;
 }
 
 .end-tag{
