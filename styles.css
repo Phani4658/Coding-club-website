@@ -320,13 +320,7 @@ button{
     position: relative;
     overflow: hidden;
 }
-.outcomes-card:hover{
-    margin: 1em;
-    transform: scale(1.08);
-    transition-property: transform;
-    transition-duration: 1000ms;
 
-}
 .outcome-card-image{
     height: 10em;
     position:relative;
