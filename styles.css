@@ -409,6 +409,16 @@ button{
     width: 80%;
     margin: auto;
 }
+.skill-card-img{
+    height: 100px;
+    width: 100%;
+}
+.lottie-img{
+    height: 10em;
+    width: 10em;
+    margin: auto;
+
+}
 .skill-icon{
     color:#F56040;
     font-size: 2em;
@@ -445,9 +455,9 @@ button{
     }
     .skill-card{
         margin: 0.5em;
-        height:12em;
+        height:18em;
         display: flex;
-        width:15em;
+        width:13em;
         flex-direction: column;
         justify-content: center;
         align-items: center;
